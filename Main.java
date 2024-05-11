@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         // longest substring
-        LengthOfLongestSubstring lcs = new LengthOfLongestSubstring();
+        MedianTwoSortedArrays mm = new MedianTwoSortedArrays();
 
-        int res = lcs.lengthOfLongestSubstring("abc");
+        double res = mm.findMedianSortedArrays(new int[] {0, 0} , new int[] {0, 0});
         System.out.println(res);
     }
 }
