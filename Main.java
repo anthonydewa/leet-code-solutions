@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         // longest substring
-        MedianTwoSortedArrays mm = new MedianTwoSortedArrays();
+        PalindromeNumber pn = new PalindromeNumber();
 
-        double res = mm.findMedianSortedArrays(new int[] {1, 2} , new int[] {3, 4});
-        System.out.println(res);
+        boolean pn = pn.isPalindrome(123);
+        System.out.println(pn);
     }
 }
