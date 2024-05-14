@@ -3,7 +3,7 @@ public class Main {
         // longest substring
         MedianTwoSortedArrays mm = new MedianTwoSortedArrays();
 
-        double res = mm.findMedianSortedArrays(new int[] {0, 0} , new int[] {0, 0});
+        double res = mm.findMedianSortedArrays(new int[] {1, 2} , new int[] {3, 4});
         System.out.println(res);
     }
 }
